@@ -1,0 +1,48 @@
+/*sorry desktop first*/
+/* Smaller than mobile */
+@media (max-width: 400px) {
+    .header h1 a {
+        font-size: 3.5rem;
+    }
+
+    .post .content {
+        padding: 10px 0;
+    }
+
+    .post {
+        padding: 10px;
+    }
+
+    ul.sidebar-1 {
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+
+    .menu-main-container {
+        margin: 20px 40px 0 0;
+    }
+}
+
+/* Smaller than phablet (also point when grid becomes active) */
+@media (max-width: 550px) {
+    ul#menu-main li {
+        float: left;
+        margin-left: 30px;
+    }
+}
+
+/* Smaller than tablet */
+@media (max-width: 750px) {
+    ul#menu-main li {
+        float: left;
+        margin-left: 30px;
+    }
+}
+
+/* Smaller than desktop */
+@media (max-width: 1000px) {
+}
+
+/* Smaller than Desktop HD */
+@media (max-width: 1200px) {
+}

@@ -9,8 +9,8 @@
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
 
-            <div class="post<?php if (is_page()): ?> page<?php endif; ?>" itemscope itemtype="http://schema.org/BlogPosting">
-
+            <div class="row post<?php if (is_page()): ?> page<?php endif; ?>" itemscope itemtype="http://schema.org/BlogPosting">
+                <div class="seven columns">
                 <div class="dim"></div>
                 <h2 itemprop="headline">
                     <a href="<?php the_permalink() ?>"><?php echo ucfirst(get_the_title()) ?></a>
@@ -36,16 +36,16 @@
                         </p>
                     <?php endif; ?>
                 </div>
-
-                <?php if (is_single() && !is_page()): ?>
-                    <?php comments_template('', true); ?>
-                <?php endif; ?>
+                </div>
             </div>
+            <?php if (is_single() && !is_page()): ?>
+                <?php comments_template('', true); ?>
+            <?php endif; ?>
 
         <?php endwhile; ?>
 
         <?php if (is_home() || is_archive() || is_search()): ?>
-            <div class="post pagination">
+            <div class="post pagination row">
 
                 <?php
                 global $wp_rewrite;

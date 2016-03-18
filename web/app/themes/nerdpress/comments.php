@@ -10,9 +10,9 @@ if ( post_password_required() ) { ?>
     return;
 }
 ?>
-
+<div class="row post">
 <!-- You can start editing here. -->
-
+<div class="seven columns">
 <?php if ( have_comments() ) : ?>
     <h3 id="comments">
         <?php
@@ -87,7 +87,7 @@ if ( post_password_required() ) { ?>
 
                 <?php endif; ?>
 
-                <p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
+                <p><textarea name="comment" id="comment" tabindex="4"></textarea></p>
 
                 <p><input name="submit" type="submit" id="submit" tabindex="5" value="<?php esc_attr_e('Submit Comment'); ?>" />
                     <?php comment_id_fields(); ?>
@@ -101,5 +101,6 @@ if ( post_password_required() ) { ?>
 
         <?php endif; // If registration required and not logged in ?>
     </div>
-
 <?php endif; // if you delete this the sky will fall on your head ?>
+</div>
+</div>
