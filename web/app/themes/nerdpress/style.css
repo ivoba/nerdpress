@@ -1,0 +1,9 @@
+/*
+Theme Name: Nerdpress
+Theme URI: http://nerdpress.org
+Description: The 2011 theme for Nerdpress
+*/
+
+@import 'css/reset.css';
+@import 'css/layout.css';
+@import 'css/typo.css';

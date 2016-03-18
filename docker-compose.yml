@@ -1,0 +1,22 @@
+php:
+  build: docker/php-dev
+  container_name: nerdpress-v2
+  ports:
+    - 8088:80
+  links:
+    - mysql
+  volumes:
+      - .:/var/www
+
+mysql:
+  image: mysql:latest
+  ports:
+   - 3306
+  environment:
+    MYSQL_DATABASE: nerdpress
+    MYSQL_USER: nerdpress
+    MYSQL_PASSWORD: nerdpress
+    MYSQL_ROOT_PASSWORD: rootPW
+  volumes:
+    - ./data/mysql:/var/lib/mysql
+    - ./mysql/my.cnf:/etc/mysql/conf.d/z_my.cnf
