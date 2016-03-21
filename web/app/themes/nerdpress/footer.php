@@ -20,6 +20,8 @@
 </div>
 
 <?php wp_footer() ?>
+
+<?php if(WP_ENV == 'production'): ?>
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -35,8 +37,8 @@
 
     ga('create', 'UA-1359972-13', 'auto');
     ga('send', 'pageview');
-
 </script>
+<?php endif; ?>
 </body>
 </html>
 

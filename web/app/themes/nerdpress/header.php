@@ -3,6 +3,7 @@
 <head>
     <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
     <meta http-equiv="content-language" content="en"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="<?php bloginfo('stylesheet_url') ?>" rel="stylesheet" type="text/css"/>
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
     <?php wp_head() ?>

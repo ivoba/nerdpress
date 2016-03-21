@@ -1,0 +1,19 @@
+/*
+Theme Name: Nerdpress
+Theme URI: http://nerdpress.org
+Description: The 2011 theme for Nerdpress
+*/
+
+:root {
+    --total-columns: 12;
+    --column-width: calc(100% / var(--total-columns));
+    --max-width: 800px;
+    --gutter: 1rem;
+}
+
+@import 'normalize.css';
+@import 'skeleton.css';
+@import 'reset.css';
+@import 'layout.css';
+@import 'typo.css';
+@import 'responsive.css';

@@ -1,3 +1,9 @@
+builder:
+  build: docker/builder
+  container_name: nerdpress-builder
+  volumes_from:
+    - nerdpress-v2:rw
+
 php:
   build: docker/php-dev
   container_name: nerdpress-v2
@@ -6,7 +12,7 @@ php:
   links:
     - mysql
   volumes:
-      - .:/var/www
+    - .:/var/www
 
 mysql:
   image: mysql:latest

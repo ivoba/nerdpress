@@ -44,7 +44,7 @@ strong, b {
 .header .date {
     display: block;
     text-align: center;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 .header h1 {
@@ -55,7 +55,8 @@ strong, b {
 }
 
 .header {
-    background: url('../images/bg_header.png');
+    background: url('images/bg_header.png');
+    padding-top: 25px;
 }
 
 .header .headline {
@@ -104,7 +105,7 @@ form#searchform input#s {
 
 form#searchform input#searchsubmit {
     border: none;
-    background: url('../images/bg_search_button.png') no-repeat;
+    background: url('images/bg_search_button.png') no-repeat;
     width: 30px;
     height: 25px;
     display: block;
@@ -134,7 +135,7 @@ form#searchform input#searchsubmit:hover {
 }
 
 .post:nth-child(even) {
-    background: #eee url('../images/bg_header.png') no-repeat;
+    background: #eee url('images/bg_header.png') no-repeat;
 }
 
 .post:nth-child(even) .dim {
@@ -186,7 +187,7 @@ form#searchform input#searchsubmit:hover {
     position: absolute;
     left: -30px;
     top: -150px;
-    background: url('../images/dim.png');
+    background: url('images/dim.png');
 }
 
 .syntaxhighlighter .code {
@@ -260,7 +261,6 @@ ul.sidebar-1 {
 
 ul.sidebar-2 {
     padding: 0 30px;
-    width: 140px;
     border-left: 1px solid #efefef;
     border-right: 1px solid #efefef;
 }

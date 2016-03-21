@@ -18,12 +18,12 @@ a {
 /*header*/
 
 .header .date {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
 }
 
 .header h1 {
-    font-size: 6.5rem;
+    font-size: 7.2rem;
 }
 
 .header h1 a {

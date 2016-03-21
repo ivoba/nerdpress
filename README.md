@@ -21,3 +21,11 @@ copy env file, adjust if neccesary and add keys
 
 - "wpackagist-plugin/social": "^3.1", errors while composer update
 - https://github.com/skeleton-framework/skeleton-framework
+
+
+node
+npm
+gulp
+gulp watch
+gulp postcss minify
+gulp ftp
