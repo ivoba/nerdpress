@@ -1,31 +1,19 @@
 {
-  "name": "skeleton-framework",
-  "version": "1.0.8",
-  "license": "MIT",
-  "homepage": "https://github.com/skeleton-framework/skeleton-framework#readme",
-  "description": "A simple responsive framework for mobile friendly development.",
+  "name": "nerdpress.org build",
+  "homepage": "http://nerdpress.org",
+  "description": "blog",
   "author": [
-    "Skeleton Framework"
+    "Nerdpress"
   ],
   "scripts": {
-    "start": "gulp",
-    "dev": "gulp dev",
-    "prewatch": "gulp dev",
-    "watch": "gulp watch",
-    "dist": "gulp dist"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/skeleton-framework/skeleton-framework.git"
   },
-  "bugs": {
-    "url": "https://github.com/skeleton-framework/skeleton-framework/issues"
-  },
   "keywords": [
-    "css",
-    "framework",
-    "skeleton",
-    "skeleton-framework"
+    "nerdpress"
   ],
   "devDependencies": {
     "autoprefixer": "^6.2.1",
